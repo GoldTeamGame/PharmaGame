@@ -1,0 +1,4 @@
+#Tue Oct 16 15:56:34 CDT 2018
+base.0=/Users/rossburnworth/Documents/school/cs425/PharmaGame/Temp/gradleOut/build/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex
