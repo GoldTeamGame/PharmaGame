@@ -6,9 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Storefront.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/New Scene.unity
-    guid: a2425e388db6643c3aa11a1af4f52c82
+    path: Assets/Scenes/Customers.unity
+    guid: 0a455322beda940ca8ce75f4a2d0d703
+  - enabled: 1
+    path: Assets/Scenes/World Map.unity
+    guid: ed949e6eea2674eaa9f72297c648fbc0
+  - enabled: 1
+    path: Assets/Scenes/Stats.unity
+    guid: f4fc56d52d1254ea9aa2303372b96622
+  - enabled: 1
+    path: Assets/Scenes/Prev Report.unity
+    guid: 8701f797c30f14f66a532ed64ad34657
+  - enabled: 1
+    path: Assets/Scenes/Store.unity
+    guid: f18d060700c3a4822960c17ef34e0be3
+  - enabled: 1
+    path: Assets/Scenes/Inventory.unity
+    guid: dd9244db9551c43779778e2333da1674
+  - enabled: 1
+    path: Assets/Scenes/Quests.unity
+    guid: 1c664ad19088a478cb0903b726277c42
+  - enabled: 1
+    path: Assets/Scenes/Expansion.unity
+    guid: 794f3cd12bc27453a916f320c2559ce2
   m_configObjects: {}

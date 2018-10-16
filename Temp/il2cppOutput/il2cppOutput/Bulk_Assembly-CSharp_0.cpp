@@ -496,8 +496,8 @@ public:
 extern "C" IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m1579109191 (MonoBehaviour_t3962482529 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.GameObject::SetActive(System.Boolean)
 extern "C" IL2CPP_METHOD_ATTR void GameObject_SetActive_m796801857 (GameObject_t1113636619 * __this, bool p0, const RuntimeMethod* method);
-// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
-extern "C" IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m1758133949 (RuntimeObject * __this /* static, unused */, String_t* p0, const RuntimeMethod* method);
+// System.Void UnityEngine.Application::LoadLevel(System.String)
+extern "C" IL2CPP_METHOD_ATTR void Application_LoadLevel_m2650087286 (RuntimeObject * __this /* static, unused */, String_t* p0, const RuntimeMethod* method);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -560,7 +560,7 @@ extern "C" IL2CPP_METHOD_ATTR void SwitchScene_ChangeScene_m1584609472 (SwitchSc
 {
 	{
 		String_t* L_0 = ___scene0;
-		SceneManager_LoadScene_m1758133949(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Application_LoadLevel_m2650087286(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }

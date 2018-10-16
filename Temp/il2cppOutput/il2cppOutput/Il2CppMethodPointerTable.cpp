@@ -9041,6 +9041,7 @@ extern "C" void Application_CallLogCallback_m255562505 ();
 extern "C" void Application_CallLowMemory_m2813539296 ();
 extern "C" void Application_Internal_ApplicationQuit_m2936209313 ();
 extern "C" void Application_InvokeOnBeforeRender_m2875673833 ();
+extern "C" void Application_LoadLevel_m2650087286 ();
 extern "C" void AssetFileNameExtensionAttribute__ctor_m592302761 ();
 extern "C" void AsyncOperation__ctor_m410195587 ();
 extern "C" void AsyncOperation_Finalize_m1841265672 ();
@@ -9816,7 +9817,6 @@ extern "C" void RequireComponent__ctor_m886241599 ();
 extern "C" void SceneManager_Internal_ActiveSceneChanged_m3676176255 ();
 extern "C" void SceneManager_Internal_SceneLoaded_m2694652025 ();
 extern "C" void SceneManager_Internal_SceneUnloaded_m3247148570 ();
-extern "C" void SceneManager_LoadScene_m1758133949 ();
 extern "C" void SceneManager_LoadScene_m2298600132 ();
 extern "C" void ScriptableObject__ctor_m1310743131 ();
 extern "C" void ScriptableObject_CreateScriptableObject_m3504774547 ();
@@ -19476,6 +19476,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11359] =
 	Application_Internal_ApplicationWantsToQuit_m2059931957,
 	Application_Internal_ApplicationQuit_m2936209313,
 	Application_InvokeOnBeforeRender_m2875673833,
+	Application_LoadLevel_m2650087286,
 	LogCallback__ctor_m144650965,
 	LogCallback_Invoke_m1707963620,
 	LogCallback_BeginInvoke_m1868775196,
@@ -20211,7 +20212,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11359] =
 	Scene_Equals_m581999093_AdjustorThunk,
 	SceneManager_LoadSceneAsyncNameIndexInternal_m4031498323,
 	SceneManager_LoadScene_m2298600132,
-	SceneManager_LoadScene_m1758133949,
 	SceneManager_Internal_SceneLoaded_m2694652025,
 	SceneManager_Internal_SceneUnloaded_m3247148570,
 	SceneManager_Internal_ActiveSceneChanged_m3676176255,

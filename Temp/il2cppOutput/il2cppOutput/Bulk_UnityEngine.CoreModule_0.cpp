@@ -18404,6 +18404,8 @@ extern "C" IL2CPP_METHOD_ATTR void Debug_LogException_m2207318968 (RuntimeObject
 extern "C" IL2CPP_METHOD_ATTR void Action_Invoke_m937035532 (Action_t1264377477 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.BeforeRenderHelper::Invoke()
 extern "C" IL2CPP_METHOD_ATTR void BeforeRenderHelper_Invoke_m50072094 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String,UnityEngine.SceneManagement.LoadSceneMode)
+extern "C" IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m2298600132 (RuntimeObject * __this /* static, unused */, String_t* ___sceneName0, int32_t ___mode1, const RuntimeMethod* method);
 // System.Void UnityEngine.YieldInstruction::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void YieldInstruction__ctor_m1498450609 (YieldInstruction_t403091072 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.AsyncOperation::InternalDestroy(System.IntPtr)
@@ -19689,8 +19691,6 @@ extern "C" IL2CPP_METHOD_ATTR int32_t Scene_GetHashCode_m2998285532 (Scene_t2348
 extern "C" IL2CPP_METHOD_ATTR bool Scene_Equals_m581999093 (Scene_t2348375561 * __this, RuntimeObject * ___other0, const RuntimeMethod* method);
 // UnityEngine.AsyncOperation UnityEngine.SceneManagement.SceneManager::LoadSceneAsyncNameIndexInternal(System.String,System.Int32,System.Boolean,System.Boolean)
 extern "C" IL2CPP_METHOD_ATTR AsyncOperation_t1445031843 * SceneManager_LoadSceneAsyncNameIndexInternal_m4031498323 (RuntimeObject * __this /* static, unused */, String_t* ___sceneName0, int32_t ___sceneBuildIndex1, bool ___isAdditive2, bool ___mustCompleteNextFrame3, const RuntimeMethod* method);
-// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String,UnityEngine.SceneManagement.LoadSceneMode)
-extern "C" IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m2298600132 (RuntimeObject * __this /* static, unused */, String_t* ___sceneName0, int32_t ___mode1, const RuntimeMethod* method);
 // System.Void UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>::Invoke(T0,T1)
 inline void UnityAction_2_Invoke_m1541286357 (UnityAction_2_t2165061829 * __this, Scene_t2348375561  p0, int32_t p1, const RuntimeMethod* method)
 {
@@ -20562,6 +20562,15 @@ extern "C" IL2CPP_METHOD_ATTR void Application_InvokeOnBeforeRender_m2875673833 
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(BeforeRenderHelper_t1336903776_il2cpp_TypeInfo_var);
 		BeforeRenderHelper_Invoke_m50072094(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Application::LoadLevel(System.String)
+extern "C" IL2CPP_METHOD_ATTR void Application_LoadLevel_m2650087286 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		SceneManager_LoadScene_m2298600132(NULL /*static, unused*/, L_0, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -41782,18 +41791,6 @@ IL_0010:
 IL_0011:
 	{
 		SceneManager_LoadSceneAsyncNameIndexInternal_m4031498323(NULL /*static, unused*/, G_B3_2, G_B3_1, (bool)G_B3_0, (bool)1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
-extern "C" IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m1758133949 (RuntimeObject * __this /* static, unused */, String_t* ___sceneName0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		V_0 = 0;
-		String_t* L_0 = ___sceneName0;
-		int32_t L_1 = V_0;
-		SceneManager_LoadScene_m2298600132(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }

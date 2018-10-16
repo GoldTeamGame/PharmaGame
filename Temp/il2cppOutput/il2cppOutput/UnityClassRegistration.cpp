@@ -172,7 +172,7 @@ class ParticleRenderer;
 class ParticleSystemRenderer; 
 class SkinnedMeshRenderer; 
 class SpriteMask; 
-class SpriteRenderer; template <> void RegisterUnityClass<SpriteRenderer>(const char*);
+class SpriteRenderer; 
 class SpriteShapeRenderer; 
 class TilemapRenderer; 
 class TrailRenderer; 
@@ -281,7 +281,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 57 non stripped classes
+	//Total: 56 non stripped classes
 	//0. Camera
 	RegisterUnityClass<Camera>("Core");
 	//1. Behaviour
@@ -388,13 +388,11 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<LightmapSettings>("Core");
 	//52. RenderSettings
 	RegisterUnityClass<RenderSettings>("Core");
-	//53. SpriteRenderer
-	RegisterUnityClass<SpriteRenderer>("Core");
-	//54. UI::CanvasRenderer
+	//53. UI::CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
-	//55. AudioBehaviour
+	//54. AudioBehaviour
 	RegisterUnityClass<AudioBehaviour>("Audio");
-	//56. AudioListener
+	//55. AudioListener
 	RegisterUnityClass<AudioListener>("Audio");
 
 }
