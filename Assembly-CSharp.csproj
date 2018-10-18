@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{327970CC-5F31-09D8-310F-438615C3B531}</ProjectGuid>
+    <ProjectGuid>{5AC0EB7D-9866-69BD-6AF3-093743FFC126}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,16 +64,16 @@
     <Compile Include="Assets\Scripts\Hide.cs" />
     <Compile Include="Assets\Scripts\SwitchScene.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/rossburnworth/Documents/school/cs425/PharmaGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/rossburnworth/Downloads/PharmaGame-master/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/rossburnworth/Documents/school/cs425/PharmaGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/rossburnworth/Downloads/PharmaGame-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/rossburnworth/Documents/school/cs425/PharmaGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/rossburnworth/Downloads/PharmaGame-master/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/rossburnworth/Documents/school/cs425/PharmaGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/rossburnworth/Downloads/PharmaGame-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

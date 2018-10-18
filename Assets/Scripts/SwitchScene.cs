@@ -10,4 +10,9 @@ public class SwitchScene : MonoBehaviour {
     {
         Application.LoadLevel(scene);
     }
+
+    public void BackToStore()
+    {
+        Application.LoadLevel("Storefront");
+    }
 }
