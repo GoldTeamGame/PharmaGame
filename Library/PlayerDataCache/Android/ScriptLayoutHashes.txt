@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Alex/Documents/senior project/PharmaGame-master/phonetest.apk
+D:/Folders/fa 18/Senior Project/test.apk
 SceneListBegin?
 Assets/Scenes/Storefront.unity
 Assets/Scenes/Customers.unity
@@ -132,6 +132,7 @@ dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 7697bfcc536c7881064610587adc693e Assembly-CSharp.dll:.Hide
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
+5edf4a9e858606fd7d34d73749ea02c0 Assembly-CSharp.dll:.MoveCamera
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
 201273fb4f889724fb090164b7d6c657 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 486cd95c82d8305219c352c06b776e1f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -173,4 +174,3 @@ e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-5edf4a9e858606fd7d34d73749ea02c0 Assembly-CSharp.dll:.MoveCamera
